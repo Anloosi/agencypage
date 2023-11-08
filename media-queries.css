@@ -2,10 +2,10 @@
 /* DEVICES BELOW 600PX */
 
 @media screen and (max-width: 600px) {
+    /* NAV */
     .nav-ul {
         width: 100%;
         flex-direction: column;
-        /* display: none; */
         margin-top: 1rem;
         display: none;
     }
@@ -37,14 +37,28 @@
     display: block;
   }
 
-  .show {
+  .showMenu {
     display: flex;
   }
 
-  .hide {
+  .hideMenu {
     display: none;
   }
 
+.intro-text {
+    width: 100%;
+}
 
+.intro-text h1 {
+    font-size: 6rem;
+}
+
+.contact {
+    flex-direction: column;
+}
+
+.contact > * {
+    margin: 1rem 0;
+}
 
 }
