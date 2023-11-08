@@ -18,6 +18,7 @@ const modal = document.querySelector(".modal");
 const btn = document.querySelector(".search");
 const closeModal = document.querySelector(".close-modal");
 
+
 btn.addEventListener("click", openPopup);
 closeModal.addEventListener("click", closePopup);
 
@@ -28,3 +29,8 @@ function openPopup() {
 function closePopup() {
     modal.style.display = "none";
 }
+
+//page Animation
+AOS.init({
+ duration:1000,
+});
